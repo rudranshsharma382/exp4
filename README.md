@@ -32,125 +32,126 @@ FROZEN SET
 A frozenset is an immutable version of a set. Once created, elements cannot be added or removed. It is useful when a fixed collection of unique elements is required.
 
 ALGORITHM
+
 ALGORITHM 1: Creation and Accessing Elements of a Set
 
-Create a set with multiple elements.
+1.Create a set with multiple elements.
 
-Print the set.
+2.Print the set.
 
-Try to access an element using an index.
+3.Try to access an element using an index.
 
-Observe the error as sets do not support indexing.
+4.Observe the error as sets do not support indexing.
 
 ALGORITHM 2: Set with Multiple Data Types and Duplicate Removal
 
-Create a set containing integers, floats, strings, and boolean values.
+1.Create a set containing integers, floats, strings, and boolean values.
 
-Print the set.
+2.Print the set.
 
-Observe that duplicate values are automatically removed.
+3.Observe that duplicate values are automatically removed.
 
 ALGORITHM 3: Adding and Removing Elements from a Set
 
-Create a set with string elements.
+1.Create a set with string elements.
 
-Use add() to insert a new element.
+2.Use add() to insert a new element.
 
-Use remove() to delete an existing element.
+3.Use remove() to delete an existing element.
 
-Print the updated set.
+4.Print the updated set.
 
 ALGORITHM 4: Set Operations (Union, Intersection, Difference)
 
-Create two sets with numeric values.
+1.Create two sets with numeric values.
 
-Perform union using union() and | operator.
+2.Perform union using union() and | operator.
 
-Perform intersection using & operator.
+3.Perform intersection using & operator.
 
-Find difference using - operator.
+4.Find difference using - operator.
 
-Find symmetric difference using ^ operator.
+5.Find symmetric difference using ^ operator.
 
-Print all results.
+6.Print all results.
 
 ALGORITHM 5: Working with Frozenset
 
-Create a frozenset with string elements.
+1.Create a frozenset with string elements.
 
-Print the frozenset.
+2.Print the frozenset.
 
-Try to add a new element using add().
+3.Try to add a new element using add().
 
-Observe the error since frozenset is immutable.
+4.Observe the error since frozenset is immutable.
 
 ALGORITHM 6: Removing Duplicate Students Using Set
 
-Create a list of student names with duplicate entries.
+1.Create a list of student names with duplicate entries.
 
-Convert the list into a set.
+2.Convert the list into a set.
 
-Print the original list and the set of unique students.
+3.Print the original list and the set of unique students.
 
 ALGORITHM 7: Finding Common Subjects Among Students
 
-Create sets of subjects chosen by different students.
+1.Create sets of subjects chosen by different students.
 
-Use intersection operator & to find common subjects.
+2.Use intersection operator & to find common subjects.
 
-Display the result.
+3.Display the result.
 
 ALGORITHM 8: Club Membership Analysis
 
-Create sets of students in cricket and football clubs.
+1.Create sets of students in cricket and football clubs.
 
-Find students in both clubs using intersection.
+2.Find students in both clubs using intersection.
 
-Find students in only one club using symmetric difference.
+3.Find students in only one club using symmetric difference.
 
-Display the results.
+4.Display the results.
 
 ALGORITHM 9: Finding Absent Students
 
-Create a set of all students.
+1.Create a set of all students.
 
-Create a set of present students.
+2.Create a set of present students.
 
-Subtract present students from all students.
+3.Subtract present students from all students.
 
-Display the absent students.
+4.Display the absent students.
 
 ALGORITHM 10: Removing Discontinued Course
 
-Create a set of course codes.
+1.Create a set of course codes.
 
-Identify the discontinued course.
+2.Identify the discontinued course.
 
-Remove it using discard() method.
+3.Remove it using discard() method.
 
-Print the updated course codes.
+4.Print the updated course codes.
 
-Definition of Commands Used
+DEFINATION OF COMMANDS USED
 
-set(): Creates a new set.
+1.set(): Creates a new set.
 
-frozenset(): Creates an immutable set.
+2.frozenset(): Creates an immutable set.
 
-add(): Adds an element to a set.
+3.add(): Adds an element to a set.
 
-remove(): Removes a specified element from a set (raises error if not found).
+4.remove(): Removes a specified element from a set (raises error if not found).
 
-discard(): Removes an element if present (no error if absent).
+5.discard(): Removes an element if present (no error if absent).
 
-union() / |: Returns a set containing all elements from both sets.
+6.union() / |: Returns a set containing all elements from both sets.
 
-intersection() / &: Returns common elements between sets.
+7.intersection() / &: Returns common elements between sets.
 
-difference() / -: Returns elements present in one set but not in another.
+8.difference() / -: Returns elements present in one set but not in another.
 
-symmetric difference() / ^: Returns elements present in only one of the sets.
+9.symmetric difference() / ^: Returns elements present in only one of the sets.
 
-print(): Displays output on the screen.
+10.print(): Displays output on the screen.
 
 CONCLUSION
 
